@@ -248,12 +248,12 @@ UNIQUE (email_addr)
 )`
 
 var CreateTablesSql []string = []string{
-	Cr_openpgp_pubkey,
-	Cr_openpgp_sig,
-	Cr_openpgp_subkey,
-	Cr_openpgp_uid,
-	Cr_openpgp_uat,
-	Cr_pks_stat,
+	//Cr_openpgp_pubkey,
+	//Cr_openpgp_sig,
+	//Cr_openpgp_subkey,
+	//Cr_openpgp_uid,
+	//Cr_openpgp_uat,
+	//Cr_pks_stat,
 }
 
 var Cr_openpgp_pubkey_constraints []string = []string{
@@ -334,13 +334,13 @@ var Cr_openpgp_revsig_constraints []string = []string{
 }
 
 var CreateConstraintsSql [][]string = [][]string{
-	Cr_openpgp_pubkey_constraints,
-	Cr_openpgp_subkey_constraints,
-	Cr_openpgp_uid_constraints,
-	Cr_openpgp_uat_constraints,
-	Cr_openpgp_sig_constraints,
-	Cr_openpgp_primary_constraints,
-	Cr_openpgp_revsig_constraints,
+	//Cr_openpgp_pubkey_constraints,
+	//Cr_openpgp_subkey_constraints,
+	//Cr_openpgp_uid_constraints,
+	//Cr_openpgp_uat_constraints,
+	//Cr_openpgp_sig_constraints,
+	//Cr_openpgp_primary_constraints,
+	//Cr_openpgp_revsig_constraints,
 }
 
 const dedupTemplate = `
@@ -432,11 +432,11 @@ var Dr_openpgp_revsig_constraints []string = []string{
 }
 
 var DropConstraintsSql [][]string = [][]string{
-	Dr_openpgp_revsig_constraints,
-	Dr_openpgp_primary_constraints,
-	Dr_openpgp_sig_constraints,
-	Dr_openpgp_uat_constraints,
-	Dr_openpgp_uid_constraints,
-	Dr_openpgp_subkey_constraints,
-	Dr_openpgp_pubkey_constraints,
+	//Dr_openpgp_revsig_constraints,
+	//Dr_openpgp_primary_constraints,
+	//Dr_openpgp_sig_constraints,
+	//Dr_openpgp_uat_constraints,
+	//Dr_openpgp_uid_constraints,
+	//Dr_openpgp_subkey_constraints,
+	//Dr_openpgp_pubkey_constraints,
 }
