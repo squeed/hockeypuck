@@ -23,6 +23,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/juju/errgo/errors"
 	"github.com/lib/pq"
+	_ "github.com/wfreeman/cq"
 )
 
 type DB struct {

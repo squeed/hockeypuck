@@ -1,5 +1,15 @@
 Hockeypuck: OpenPGP Key Server
 ==============================
 
-Documentation: http://hockeypuck.github.io
+This is a fork of the regular Hockeypuck PGP server, focused on 
+replacing the backend with the Neo4j graph database. It is in
+very early stages. Also, we'll change the name as soon as we 
+come up with a better one.
+
+Running hockeypuck with Neo4j
+-----------------------------
+
+hockeypuck run --config hkp_neo.conf
+
+Documentation for regular hockeypuck: http://hockeypuck.github.io
 
