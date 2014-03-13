@@ -23,8 +23,8 @@ import (
 
 	"code.google.com/p/gorilla/mux"
 
-	"github.com/cmars/hockeypuck"
-	Errors "github.com/cmars/hockeypuck/errors"
+	"github.com/squeed/hockeypuck"
+	Errors "github.com/squeed/hockeypuck/errors"
 )
 
 func (s *Settings) HttpBind() string {

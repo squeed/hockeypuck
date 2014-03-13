@@ -22,7 +22,7 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/cmars/hockeypuck/util"
+	"github.com/squeed/hockeypuck/util"
 )
 
 type Loader struct {

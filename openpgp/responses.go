@@ -29,9 +29,9 @@ import (
 
 	"github.com/cmars/conflux/recon"
 
-	"github.com/cmars/hockeypuck"
-	. "github.com/cmars/hockeypuck/errors"
-	"github.com/cmars/hockeypuck/hkp"
+	"github.com/squeed/hockeypuck"
+	. "github.com/squeed/hockeypuck/errors"
+	"github.com/squeed/hockeypuck/hkp"
 )
 
 type ErrorResponse struct {

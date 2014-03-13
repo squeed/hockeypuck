@@ -6,9 +6,9 @@ import (
 	"code.google.com/p/gorilla/mux"
 	"launchpad.net/gnuflag"
 
-	. "github.com/cmars/hockeypuck"
-	"github.com/cmars/hockeypuck/hkp"
-	"github.com/cmars/hockeypuck/openpgp"
+	. "github.com/squeed/hockeypuck"
+	"github.com/squeed/hockeypuck/hkp"
+	"github.com/squeed/hockeypuck/openpgp"
 )
 
 type runCmd struct {

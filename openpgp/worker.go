@@ -31,9 +31,9 @@ import (
 	"github.com/juju/errgo/errors"
 	_ "github.com/lib/pq"
 
-	. "github.com/cmars/hockeypuck/errors"
-	"github.com/cmars/hockeypuck/hkp"
-	"github.com/cmars/hockeypuck/util"
+	. "github.com/squeed/hockeypuck/errors"
+	"github.com/squeed/hockeypuck/hkp"
+	"github.com/squeed/hockeypuck/util"
 )
 
 const LOOKUP_RESULT_LIMIT = 100

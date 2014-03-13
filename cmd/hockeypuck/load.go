@@ -30,8 +30,8 @@ import (
 	"github.com/lib/pq"
 	"launchpad.net/gnuflag"
 
-	. "github.com/cmars/hockeypuck"
-	"github.com/cmars/hockeypuck/openpgp"
+	. "github.com/squeed/hockeypuck"
+	"github.com/squeed/hockeypuck/openpgp"
 )
 
 type loadCmd struct {

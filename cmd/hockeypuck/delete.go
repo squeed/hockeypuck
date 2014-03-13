@@ -28,9 +28,9 @@ import (
 	"github.com/cmars/conflux/recon"
 
 	"launchpad.net/gnuflag"
-	. "github.com/cmars/hockeypuck"
-	"github.com/cmars/hockeypuck/openpgp"
-	"github.com/cmars/hockeypuck/util"
+	. "github.com/squeed/hockeypuck"
+	"github.com/squeed/hockeypuck/openpgp"
+	"github.com/squeed/hockeypuck/util"
 )
 
 type deleteCmd struct {

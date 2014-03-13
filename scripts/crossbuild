@@ -3,7 +3,7 @@
 #
 # This script depends on a Go cross-compilation setup as described here:
 # http://dave.cheney.net/2012/09/08/an-introduction-to-cross-compilation-with-go
-# 
+#
 . $HOME/local/bin/golang-crosscompile
 
 if [ -z "$1" ]; then
@@ -21,7 +21,7 @@ trap "rm -rf $DOCROOT" EXIT
 GOPATH=$(pwd)/gopath
 rm -rf $GOPATH/bin $GOPATH/pkg
 
-APPS="launchpad.net/hockeypuck/cmd/hockeypuck"
+APPS="github.com/squeed/hockeypuck/cmd/hockeypuck"
 
 for platform in $PLATFORMS;
 do
